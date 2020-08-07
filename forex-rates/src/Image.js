@@ -11,7 +11,7 @@ function Image({ base, currency }) {
       ></img>
       <img
         alt={second}
-        src={`https://www.countryflags.io/${second}/flat/32.png`}
+        src={`https://www.countryflags.io/${second}/flat/48.png`}
       ></img>
     </span>
   );

@@ -18,10 +18,10 @@ function Currency({ baseCurrency, currency }) {
   }
   return (
     <div>
-      <div>
+      <div className="title">
         {baseCurrency}/{currency}
       </div>
-      <div>EURO / {secondCurrency}</div>
+      <div className="sub-title">EURO / {secondCurrency}</div>
     </div>
   );
 }
